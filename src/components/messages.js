@@ -4,7 +4,7 @@ const Messages = ({ messages }) => {
     return (
         <div>
             <center><h1>Message List</h1></center>
-            {messages.map((message) => (
+            {messages?.map((message) => (
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">{messages.value}</h5>
